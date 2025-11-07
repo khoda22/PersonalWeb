@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Davis Rojas Torres - KHODA Portfolio">
+    <title>KHODA | Davis Rojas</title>
+    
+    <!-- Tu hoja de estilos principal -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <!-- === PÁGINA PRINCIPAL (HERO) === -->
+    
+    <!-- BARRA DE NAVEGACIÓN -->
+    <nav class="navbar">
+        <!-- CAMBIO: Este botón ahora abrirá el overlay -->
+        <a href="#" id="menuOpenButton" aria-label="Abrir menú">
+            <div class="menu-icon">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </a>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero-container">
+        <div class="hero-image"></div>
+        <div class="hero-overlay"></div>
+        <h1 class="hero-text">KHODA</h1>
+    </section>
+
+    
+    <!-- === MENÚ OVERLAY (OCULTO POR DEFECTO) === -->
+    <!-- Todo el contenido de tu antiguo menu.html va aquí -->
+    
+    <!-- BOTÓN DE CERRAR -->
+    <a href="#" id="menuCloseButton" class="close-button" aria-label="Cerrar menú">&times;</a>
+
+    <!-- CONTENEDOR PRINCIPAL DEL MENÚ -->
+    <main class="menu-container">
+        <!-- MITAD IZQUIERDA: VÍNCULOS -->
+        <div class="menu-links">
+            <nav>
+                <ul>
+                    <!-- CAMBIO: Los links ahora son anclas para JS -->
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- MITAD DERECHA: GALERÍA DE PASIONES -->
+        <div class="menu-gallery">
+            <img src="images/duki.jpg" alt="Mi primera pasión" class="img1">
+            <img src="images/ney.jpg" alt="Mi segunda pasión" class="img2">
+            <img src="images/verstappen.jpg" alt="Mi tercera pasión" class="img3">
+            <img src="images/gengar.jpg" alt="Mi cuarta pasión" class="img4">
+        </div>
+    </main>
+    
+    <!-- Tu script principal -->
+    <script src="scripts/script.js" defer></script>
+
+</body>
+</html>
