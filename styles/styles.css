@@ -290,3 +290,30 @@ body.menu-active .close-button {
         left: 20px;
     }
 }
+
+.site-logo {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 9999;
+    width: 56px;
+    height: 56px;
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+
+    /* quitar borde/fondo/sombra */
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.site-logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+
+    /* asegurar transparencia */
+    background: transparent !important;
+}
